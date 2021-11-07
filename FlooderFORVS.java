@@ -11,6 +11,7 @@ public class FlooderFORVS
     public static void main(String args[]) throws AWTException, InterruptedException
     {
         int arr[] = {1,0,0,10000};
+	int delay = 10000;
         Scanner sc = new Scanner(System.in);
         FlooderFORVS alpha = new FlooderFORVS();
         String myArray[] = {"Test Case 1", "This is from Test case 1","Yes its sure that this is from text case 1"};
@@ -30,7 +31,7 @@ public class FlooderFORVS
         	alpha.Stroke(arr[2]);
         else {
         System.out.println("Spam will start in 10(s) Please select your targetted window");
-        Thread.sleep(arr[4]);
+        Thread.sleep(delay);
         for(int v = 0;v<myArray.length;)
 			{  
 				 while(System.currentTimeMillis()<et)
