@@ -24,7 +24,7 @@ public class FlooderFORVS
         long wt = arr[3];
         long et = st+wt;
         sc.nextLine();
-        System.out.println("Do you want to send messages predefined or you want to send your own messages");
+        System.out.println("Do you want to send messages predefined or you want to send your own messages (YES/NO)");
         String Choice = sc.nextLine().toUpperCase();
         if(Choice.equals("YES"))
         	alpha.Stroke(arr[2]);
