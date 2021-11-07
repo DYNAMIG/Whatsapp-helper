@@ -1,2 +1,2 @@
-# Whatsapp-helper
-idk just execute this code in any IDE and you will get what it is 
+# Spammer
+Just go to https://github.com/DYNAMIG/Whatsapp-helper/blob/main/READTHIS.md
