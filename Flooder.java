@@ -12,7 +12,7 @@ public class Flooder
 {
     public static void main(String args[]) throws AWTException, InterruptedException
     {
-        int arr[] = new int[3];
+        int arr[] = new int[4];
         arr[1]=1;arr[2]=0;arr[3]=0;arr[4]=10000;
         Scanner sc = new Scanner(System.in);
         Flooder alpha = new Flooder();
